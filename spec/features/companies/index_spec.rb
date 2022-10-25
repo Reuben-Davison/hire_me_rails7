@@ -16,6 +16,8 @@ RSpec.describe 'Companies index page' do
       expect(page).to have_content("Description:")
       within("#company_#{company.id}") do 
         expect(page).to have_content("Name: ABC")
+        expect(page).to_not have_content("Name: def")
+        expect(page).to_not have_content("Name: dfg")
       end
     end 
     
