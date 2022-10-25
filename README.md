@@ -1,24 +1,17 @@
 # README
+An open source passion project utilizing Rails 7, TailwindCSS and Hotwire, PostgreSQL.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Purpose
 
-Things you may want to cover:
+To allow bootcamp graduats easy access to companies that have hired directly from Turing School of Software and Design
 
-* Ruby version
+## Getting Started
 
-* System dependencies
+- Clone down repo
+- Run ```$bundler, $rails db:create and $rails csv_load:company```
+- Run bin/dev
+- Navigate to localhost:3000
 
-* Configuration
+## Contributing
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Make a pull request on a new branch that is named after the ticket
