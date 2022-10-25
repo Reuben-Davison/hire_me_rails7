@@ -7,11 +7,17 @@ RSpec.describe 'Companies index page' do
   end
   
   it "is a list of companies" do
-    Company.create!(name: "ABC")
+    company = Company.create!(name: "ABC")
+    Company.create!(name: "def")
+    Company.create!(name: "dfg")
     visit'/'
-    save_and_open_page
-    expect(find('companies')).to have_content("Name")
-
+    within("#companies") do 
+      expect(page).to have_content("Name:")
+      expect(page).to have_content("Description:")
+      within("#company_#{company.id}") do 
+        expect(page).to have_content("Name: ABC")
+      end
+    end 
     
   end
   
