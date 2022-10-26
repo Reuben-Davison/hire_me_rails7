@@ -8,7 +8,7 @@ To allow bootcamp graduats easy access to companies that have hired directly fro
 ## Getting Started
 
 - Clone down repo
-- Run ```$bundler, $rails db:create and $rails csv_load:company```
+- Run ```$bundler```, ```$rails db:{create,migrate}``` and ```$rails csv_load:company```
 - Run bin/dev
 - Navigate to localhost:3000
 
