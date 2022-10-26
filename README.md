@@ -9,7 +9,7 @@ To allow bootcamp graduats easy access to companies that have hired directly fro
 
 - Clone down repo
 - Run ```$bundle install```, ```$rails db:{create,migrate}``` and ```$rails csv_load:company```
-- Run bin/dev
+- Run ```bin/dev```
 - Navigate to localhost:3000
 
 ## Contributing
