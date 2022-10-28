@@ -3,7 +3,7 @@ An open source passion project utilizing Rails 7, TailwindCSS and Hotwire, Postg
 
 ## Purpose
 
-To allow bootcamp graduats easy access to companies that have hired directly from Turing School of Software and Design
+To allow bootcamp graduates easy access to companies that have hired directly from Turing School of Software and Design
 
 ## Getting Started
 
