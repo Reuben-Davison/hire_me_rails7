@@ -1,5 +1,5 @@
 # README
-An open source passion project utilizing Rails 7, TailwindCSS and Hotwire, PostgreSQL.
+An open source passion project utilizing Rails 7, TailwindCSS and Hotwire, PostgreSQL. This project addresses the same concerns that the original Hire Me project did but in Rails 7 and Ruby 3.
 
 ## Purpose
 
